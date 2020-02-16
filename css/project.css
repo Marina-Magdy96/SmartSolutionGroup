@@ -1,0 +1,181 @@
+#Home {padding-top:50px;height:650px;background-image: url('../img/mainBackground.jpg');background-repeat:no-repeat;
+					background-size: 100% 100%;}
+			  #About_Us {padding-top:50px;height:935px;background-color:rgba(255, 255, 255, .9)}
+					#Bg_About_Us{background-attachment: fixed;
+					background-image: url('../img/globe.jpg');background-repeat:no-repeat;
+					background-size: 100% 100%;}
+					
+			  #Services {padding:50px 80px;height:650px; background-color: white;}
+			  #Portfolio {padding-top:50px;background-color: #111e33;}
+			  #Clients {padding-top:50px;height:450px; background-color: #4dc7cc;}
+			  #Contact {padding-top:50px;height:700px; background-color: white;}
+			  nav{height:90px;padding: 25px 30px;}
+			  nav .container-fluid
+			  {
+				height:30px;
+				
+			  }
+			  @media (max-width: 991px){
+			  #About_Us {height:1700px}
+			  
+			  }
+			  @media (max-width: 1200px){#Services {height:900px}}
+			  @media (min-width: 993px){
+			  #About_Us img{width:100%;}
+			  #Services .media{height:200px}
+			  }
+			  @media (max-width: 991px){#Contact{height:1250px;}#Location{margin-top:50px}}
+			  @media (max-width: 768px)  
+			{
+				#Contact{height:1405px;}
+				#Services {height:1000px}
+				#About_Us {height:1900px}
+			    #myNavbar 
+			   {
+				   
+				   background-color:black;
+				   position:fixed;
+				   top:0%;
+				   left:0%;
+				   bottom:0%;
+				   right:50%;
+				   z-index:1;
+				   padding:10% 5%;
+				   
+			  
+				   
+			   }
+			  #myNavbar  li{margin:10%;}
+			   .navbar-fixed-top .navbar-collapse {max-height:100%}
+			   
+			}
+			/*@media (max-width: 678px)  
+			{
+				#Services {height:1300px}}
+				@media (max-width: 545px)  
+			{
+			#Contact{height:1405px;}
+				#Services {height:2300px}}*/
+			@media (min-width: 768px)  
+			{
+			
+			   nav 
+			   {
+				   
+				   padding-left:70px;
+				   
+			   }
+			   .navbar-nav>li>a 
+			   {
+					padding-top: 0px;
+				   
+				}
+				#firstCard{margin-left: 10vw;}
+				
+			}
+			.navbar-brand{padding:0;height:30px}
+			ul.nav a{padding-top:0;padding-bottom:0;font-weight:bold;color:white; }
+			button.navbar-toggle{margin-top:0px;border:0 !important;}
+			.navbar-nav  > .active > a, 
+			.navbar-nav > .active > a:hover {
+			color: #3487a9 !important;
+			background-color: #222222 !important;
+			background-color: transparent !important;
+			 }
+			 
+			 .navbar-fixed-top.scrolled {
+			 transition: height 500ms linear,background-color 500ms linear,padding-top 500ms linear;
+			 height:65px !important;
+			  background-color: #2a3666 !important;
+			  padding-top: 15px	!important;
+			 
+}
+
+.navbar-inverse
+{
+background-color: transparent !important;
+border:0 !important;
+}
+#Home .icon-bar {
+  position: fixed;
+  top: 30%;
+  right:0%;
+  z-index:1;
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  transition: all 1s ease;
+  color: white;
+  font-size: 20px;
+  padding:2px;
+}
+
+.icon-bar li{list-style-type:none;}
+.icon-bar i{padding:10px 12px;}
+.icon-bar i:hover {
+  border-radius:100px;
+  color:white;
+}
+.icon-bar .facebook i{font-size: 18px; padding:10px 15px;}
+.icon-bar .facebook i:hover {
+  background-color: #3b5998;
+}
+.icon-bar .twitter i:hover {
+  background-color: #1da1f2;
+}
+.icon-bar .google i:hover {
+  background-color: #d54133;
+}
+.icon-bar .linkedin i:hover {
+  background-color: #0274b3;
+}
+.icon-bar .youtube i:hover {
+  background-color: #fe0002;
+}
+.icon-bar i{ color: #41a8d3;}
+.icon-bar a{ background-color: white;margin-bottom:1px;}
+.HomeCenter{text-align:center;margin-top:270px;color:white;}
+
+#About_Us h1,#Services h1,#Portfolio h1,#Clients h1,#Contact_us h1,#Location h1{font-weight:700;text-align:center;color :black;}
+#Portfolio h1,#Clients h1{color:white}
+#About_Us hr,#Services hr,#Portfolio hr,#Clients hr,#Contact_us hr,#Location hr{display:inline;float:left;width:50px;margin:2px 0px;}
+.hr{width:158px;margin:auto;margin-bottom:20px;}
+#About_Us p{color:#333333;text-align:center;line-height: 25px;font-size:120%;padding:1% 10%;}
+.threeP{color:#333333;text-align:center;line-height: 25px;font-size:120%;padding:1% 10%;}
+.card{margin:1% 17px;background-color:#ffffff;padding:25px;}
+
+.card a{text-decoration:none;color:black;}
+.card a:hover{color:#41a8d3;transition: color 500ms linear;}
+.card-title{font-weight:bold;font-size:20px;text-align:center;}
+.media{padding:0px 20px;}
+
+#About_Us p,#Services p{color: #666666;}
+ .align-self-start{display:inline-block;float:left;margin-right:20px;}
+ ul{
+			list-style: none outside none;
+		    padding-left: 0;
+            margin: 0;
+		}
+		.demo{
+			width: 90%;
+			margin:50px 50px;
+		}
+		#content-slider img{width:100%;}
+		footer{height:80px;background-color:#2a3666;}
+		footer h5{margin:0px;padding:30px 0px;color:white;}
+		#Contact_us .media-body h4+h4{margin-left:100px;}
+		#Contact_us .media-body .Partners {margin:4px;margin-left:50px;}
+		#Contact_us .media-heading {margin-top:12px;}
+		#Contact_us .media-left:hover{color:white;}
+		.media-body br+a{margin-left:100px;line-height:1.8;}
+		#Contact_us a{text-decoration:none;}
+		#Contact_us a:hover{color:#4adc8d;}
+		#Contact_us .media i{font-size:20px;color:#666666;background-color:#2a3666;width:100%;text-align:center;padding:5px 0px;}
+		#Contact_us .media-left{width:700px;}
+		
+		.btn {position:fixed;top:90%;right:10%;z-index:1;border-radius: 15px;}
+
+		
